@@ -1,0 +1,18 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+.home {
+    background-image: url('/photo/slide-1.jpg');
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    height: 450px;
+    width: auto;
+}
+
+.home-text {
+    padding-left: 30px;
+}
+

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart</title>
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./aoo.js">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navbar start -->
+
+    <section class="hero container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mega Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Docs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Navbar end -->
+
+    <!-- Home section start -->
+
+    <section class="container d-flex align-items-center home">
+        <div class="home-text">
+            <h1>SuperMarket for <br> Fresh Grocery</h1>
+            <p>Introduced a new model for online Grocery shopping <br> and convenient home delivery</p>
+            <button type="button" class="btn btn-dark">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Home section start -->
+
+    <!-- Featured Categories section start -->
+
+    <section class="container categories pt-5">
+        <h3>Featured Categories</h3>
+        <div class="row">
+            <div class="col-md-2 text-center" style="border: 2px solid black;">
+                <img src="./photo/category-atta-rice-dal.jpg" alt="">
+                <p>Atta-Rice-Dal</p>
+            </div>
+            <div class="col-md-2 text-center" style="border: 2px solid green;">
+                <img src="./photo/category-bakery-biscuits.jpg" alt="">
+                <p>Bakery-Biscuits</p>
+            </div>
+            <div class="col-md-2 text-center" style="border: 2px solid green;">
+                <img src="./photo/category-dairy-bread-eggs.jpg" alt="">
+                <p>Dairy-Bread-Egg</p>
+            </div>
+            <div class="col-md-2 text-center" style="border: 2px solid green;">
+                <img src="./photo/category-instant-food.jpg" alt="">
+                <p>Instant-food</p>
+            </div>
+            <div class="col-md-2 text-center" style="border: 2px solid green;">
+                <img src="./photo/category-snack-munchies.jpg" alt="">
+                <p>Snack-Munchies</p>
+            </div>
+            <div class="col-md-2 text-center" style="border: 2px solid green;">
+                <img src="./photo/category-tea-coffee-drinks.jpg" alt="">
+                <p>Tea-Coffee-Drinks</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories section start -->
+
+    <!-- Poster section start -->
+
+    <section class="container poster pt-5 mt-5">
+        <div class="row">
+            <div class="col-md-6">
+               <img src="./photo/Untitled design (8).png" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+               <img src="./photo/Untitled design (9).png" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster section end -->
+
+    <!-- Products section start -->
+
+    <section class="container product pt-5 mt-5" id="shop">
+        <h1>All products</h1>
+        <div class="row text-center">
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-1.jpg" class="img-fluid">
+                <p>Snack & Munchies</p>
+                <h6>Haldiram's Sev Bhujia</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$18</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success" id="btn-change">Add00</button>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-2.jpg" class="img-fluid">
+                <p>Bakery & Biscuits</p>
+                <h6>NutriChoice Digestive</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$24</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-3.jpg" class="img-fluid">
+                <p>Bakery & Biscuits</p>
+                <h6>Cadbury 5 Star Chocolate</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$32</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-4.jpg" class="img-fluid">
+                <p>Snack & Munchies</p>
+                <h6>Onion Flavour Potato</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$3</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-5.jpg" class="img-fluid">
+                <p>Instant Food</p>
+                <h6>Salted Instant Popcorn</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$13</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-6.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Blueberry Greek Yogurt</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$18</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="row text-center mt-5">
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-7.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$24</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-8.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$32</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-9.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$3</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-10.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$15</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-11.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$10</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="border: 1px solid black;">
+                <img src="./photo/product-img-12.jpg" class="img-fluid">
+                <p>Dairy, Bread & Eggs</p>
+                <h6>Britannia Cheese Slices</h6>
+                <div class="row mt-3">
+                    <div class="col-md-6 mt-1">
+                        <p>$24</p>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-success">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products section end -->
+
+    <!-- Daily Best Sells section start -->
+
+    <section class="container sells mt-5 pt-5">
+        <h1>Daily Best Sells</h1>
+        <div class="row pt-3">
+            <div class="col-md-3 text-center">
+                <img src="./photo/banner-deal.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-3" style="border: 1px solid black;">
+                <img src="./photo/product-img-11.jpg" class="img-fluid text-center">
+                <p>Tea, Coffee & Drinks</p>
+                <h6>Roast Ground Coffee</h6>
+                <p>$13</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="button">Button</button>
+                </div>
+            </div>
+            <div class="col-md-3" style="border: 1px solid black;">
+                <img src="./photo/product-img-10.jpg" class="img-fluid text-center">
+                <p>Fruits & Vegetables</p>
+                <h6>Crushed Tomatoes</h6>
+                <p>$13</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="button">Button</button>
+                </div>
+            </div>
+            <div class="col-md-3" style="border: 1px solid black;">
+                <img src="./photo/product-img-12.jpg" class="img-fluid text-center">
+                <p>Fruits & Vegetables</p>
+                <h6>Golden Pineapple</h6>
+                <p>$13</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="button">Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Best Sells section start -->
+
+    <section class="container finish pt-5 mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="./photo/clock.svg" class="img-fluid">
+                <h5>10 minute grocery now</h5>
+                <p>Get your order delivered to your doorstep at the earliest from FreshCart pickup stores near you</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./photo/gift.svg" class="img-fluid">
+                <h5>Best Prices & Offers</h5>
+                <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best pricess & offers.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./photo/package.svg" class="img-fluid">
+                <h5>Wide Assortment</h5>
+                <p>Choose from 5000+ products across food, personal care, household, bakery, veg and non-veg & other categories.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="./photo/refresh-cw.svg" class="img-fluid">
+                <h6>Easy Returns</h6>
+                <p>Not satisfied with a product? Return it at the doorstep & get a refund within hours. No questions asked policy.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
